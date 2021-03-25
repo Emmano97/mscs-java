@@ -7,7 +7,7 @@ public class Application {
 	public static void main(String[] args) {
 		
 		/* Creation of company */
-		Company company = new Company("google llc");
+		Company google = new Company("google llc");
 		
 		/* Creation of departments */
 		Department googleCloud = new Department("google cloud", "MontainView, CA");
@@ -38,6 +38,11 @@ public class Application {
 		
 		googleAssistant.addPosition(pythonDeveloper);
 		
+		/* Add departments to company */
+		google.addDepartment(googleAssistant);
+		google.addDepartment(googleCloud);
+
+		
 		/* Creation of Employees */
 		Employee emmanuelEdorh = new Employee(1, "Emmanuel", "", "Edorh",
 				(new Date(1997, 11, 18)), "9999-999-99", 95000, dataAnalyst);
@@ -59,6 +64,9 @@ public class Application {
 		
 		Employee TimPocktman = new Employee(1, "Tim", "", "Pocktman",
 				(new Date(1997, 11, 18)), "9919-999-99", 73000, pythonDeveloper);
+		
+		
+		google.print();
 		
 	}
 

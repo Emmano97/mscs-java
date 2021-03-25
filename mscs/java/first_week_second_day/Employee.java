@@ -33,14 +33,19 @@ public class Employee {
 		this.ssn = ssn;
 		this.salary = salary;
 		this.position = position;
+		position.setEmployee(this);
 	}
 
 	Employee(){
-		position = new Position();
+		//position = new Position();
 	}
 	
 	public void print() {
-		
+		System.out.println("--------------Employee----------");
+		System.out.printf("\nFirstName: %s \n", firstName);
+		System.out.printf("\nmiddleName: %s \n", middleName);
+		System.out.printf("\nlastName: %s \n", lastName);
+		System.out.println("--------------------------------");
 	}
 	
 

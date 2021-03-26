@@ -1,6 +1,5 @@
 package mscs.java.first_week_second_day;
 
-import java.math.BigDecimal;
 import java.util.Date;
 
 public class Employee {
@@ -46,6 +45,10 @@ public class Employee {
 		System.out.printf("\nmiddleName: %s \n", middleName);
 		System.out.printf("\nlastName: %s \n", lastName);
 		System.out.println("--------------------------------");
+	}
+	
+	public double getSalary() {
+		return salary;
 	}
 	
 

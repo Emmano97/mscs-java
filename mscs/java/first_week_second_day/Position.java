@@ -36,7 +36,13 @@ public class Position {
 		
 		if(employee!=null)
 			employee.print();
-		
 	}
+	
+	public double getSalary() {
+		if(employee!=null)
+			return employee.getSalary();
+		return 0;
+	}
+	
 
 }

@@ -55,4 +55,15 @@ public class Company {
 		}
 		System.out.println("#################################");
 	}
+	
+	public double getSalary() {
+		double totalSalary = 0;
+		if(departments!=null && !departments.isEmpty()) {			
+			for(Department department: departments) {
+				totalSalary += department.getSalary();
+			}
+		}
+		return totalSalary;
+	}
+	
 }

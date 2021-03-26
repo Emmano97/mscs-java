@@ -67,6 +67,7 @@ public class Application {
 		
 		
 		google.print();
+		System.out.printf("\nTotal salary: %.3f", google.getSalary());
 		
 	}
 

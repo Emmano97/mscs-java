@@ -82,5 +82,15 @@ public class Department {
 		System.out.println("================================");
 		
 	}
+	
+	public double getSalary() {
+		double totalSalary = 0;
+		if(positions!=null && !positions.isEmpty()) {			
+			for(Position position: positions) {
+				totalSalary += position.getSalary();
+			}
+		}
+		return totalSalary;
+	}
 
 }

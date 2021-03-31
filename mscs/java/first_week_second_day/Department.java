@@ -83,6 +83,21 @@ public class Department {
 		
 	}
 	
+	public void getDepartmentHead() {
+		
+		System.out.println("=========== Department Head ===========");
+		Position departmentHead;
+		
+		
+		if(positions!=null && !positions.isEmpty()) {			
+			for(Position position: positions) {
+				
+			}
+		}
+		System.out.println("================================");
+		
+	}
+	
 	public double getSalary() {
 		double totalSalary = 0;
 		if(positions!=null && !positions.isEmpty()) {			
@@ -91,6 +106,10 @@ public class Department {
 			}
 		}
 		return totalSalary;
+	}
+	
+	public void printReportingHierarchy() {
+		
 	}
 
 }

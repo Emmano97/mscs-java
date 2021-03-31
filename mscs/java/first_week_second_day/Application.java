@@ -65,9 +65,13 @@ public class Application {
 		Employee TimPocktman = new Employee(1, "Tim", "", "Pocktman",
 				(new Date(1997, 11, 18)), "9919-999-99", 73000, pythonDeveloper);
 		
+		pythonDeveloper.setSuperior(dataEngineer);
+		pythonDeveloper.addInferior(uxDesignerIntern);
 		
-		google.print();
-		System.out.printf("\nTotal salary: %.3f", google.getSalary());
+		//google.print();
+		//System.out.printf("\nTotal salary: %.3f", google.getSalary());
+		
+		pythonDeveloper.printDownLine();
 		
 	}
 

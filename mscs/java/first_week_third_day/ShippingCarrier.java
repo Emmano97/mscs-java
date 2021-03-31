@@ -1,4 +1,4 @@
-package mscs.java.first_week_thirth_day;
+package mscs.java.first_week_third_day;
 
 public abstract class ShippingCarrier implements IShippingCarrier {
 	

@@ -1,7 +1,5 @@
 package mscs.java.first_week_first_day;
 
-import java.util.LinkedList;
-
 public class Course {
 	
 	private String  number;

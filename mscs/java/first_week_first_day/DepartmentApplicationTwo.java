@@ -1,8 +1,9 @@
 package mscs.java.first_week_first_day;
 
-import java.io.*;                 // for I/O
-import java.lang.Integer;  
-import java.util.ArrayList;
+// for I/O
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 
 /**

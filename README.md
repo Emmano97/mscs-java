@@ -13,3 +13,6 @@
 
 # second week - first day
 	#Design workshop: Library Application 
+	
+# second week - midterm review
+	#Design workshop: Conference attendee's management system

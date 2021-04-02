@@ -1,7 +1,5 @@
 package mscs.java.second_week_first_day;
 
-import java.time.LocalDateTime;
-
 public class Salaried extends Employee {
 
 	

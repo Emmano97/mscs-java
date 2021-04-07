@@ -14,7 +14,7 @@ public class Application {
 		
 		SelectiveAttendee wiyang = new SelectiveAttendee("wi yang", "Tokyo Japan");
 		
-		FullAttendee kpapkoEdwige = new FullAttendee("Edwige Kpakpo", "Lome Togo");
+		FullAttendee kpapkoEdwige = new FullAttendee("Edwige Kpakpo", "Lome Togo", googleIO.getFullFee());
 		
 		googleIO.addAttendee(kpapkoEdwige);
 		

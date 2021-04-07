@@ -1,11 +1,8 @@
 package mscs.java.second_week_third_day;
 
+//import junit.framework.TestCase;
 
 /*
- 
-import junit.framework.TestCase;
-
-
 public class TestCalculateTwoInteger extends TestCase {
 
 	public static void main(String[] args) {
@@ -38,4 +35,5 @@ public class TestCalculateTwoInteger extends TestCase {
 	   }
 
 }
+
 */
